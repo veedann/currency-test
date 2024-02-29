@@ -1,0 +1,8 @@
+@if (code) {
+  <div
+    class="inline-block mr-2"
+    [class]="'iti__flag iti__' + code.substring(0, 2).toLowerCase()"
+    data-testid="iti-flag"
+  ></div>
+  {{ code }}
+}
